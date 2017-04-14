@@ -9,13 +9,17 @@ namespace CueSheetParser
     public class CueSheet
     {
 
-        public string File { get; set; }
+        public string FilePath { get; internal set; }
 
-        public string Performer { get; set; }
+        public string FileFormat { get; internal set; }
 
-        public Rem Rem { get; }
+        public string Title { get; internal set; }
 
-        public Track Track { get; }
+        public string Performer { get; internal set; }
+
+        public readonly Rem Rem = new Rem();
+
+        public readonly Track Track = new Track();
 
     }
 }

@@ -9,8 +9,16 @@ namespace CueSheetParser.Test
         [TestMethod]
         public void Parse_shouldExtractPerformerWithoutQuotes()
         {
-            var sheet = Parser.Parse(TestData.CueWithPerformer);
-            Assert.AreEqual(sheet.Performer, "Some Performer");
+            var sheet = Parser.Parse(TestData.VeryBasicCue);
+            Assert.AreEqual("Some Performer", sheet.Performer);
         }
+
+        [TestMethod]
+        public void Parse_shouldExtractTitle()
+        {
+            var sheet = Parser.Parse(TestData.VeryBasicCue);
+            Assert.AreEqual("Some Title", sheet.Title);
+        }
+
     }
 }
