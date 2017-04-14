@@ -1,0 +1,17 @@
+﻿# OS
+# ===========
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Visual Studio
+# =========
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+bin
+obj
+packages

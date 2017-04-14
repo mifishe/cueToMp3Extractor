@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CueSheetParser.Test", "CueSheetParser.Test\CueSheetParser.Test.csproj", "{4F01FF12-30F0-4FAD-910F-CE8D73FA8E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CueSheetParser", "CueSheetParser\CueSheetParser.csproj", "{AC578FDC-86E0-4749-A642-E41B0CF95E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F01FF12-30F0-4FAD-910F-CE8D73FA8E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F01FF12-30F0-4FAD-910F-CE8D73FA8E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F01FF12-30F0-4FAD-910F-CE8D73FA8E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F01FF12-30F0-4FAD-910F-CE8D73FA8E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC578FDC-86E0-4749-A642-E41B0CF95E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC578FDC-86E0-4749-A642-E41B0CF95E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC578FDC-86E0-4749-A642-E41B0CF95E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC578FDC-86E0-4749-A642-E41B0CF95E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
